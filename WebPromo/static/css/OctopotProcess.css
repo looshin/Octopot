@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:black;
+}
+
+
+.hidden{
+    opacity:0;
+    transition: all 2.5s;
+}
+
+.show{
+    opacity:1;
+    transition:all 2.5s;
+}
+
+.nav{
+    display:flex;
+    background-color:aliceblue;
+    width:100%;
+    margin-top:0%;
+    height:15vh;
+    position:sticky;
+    top:0px;
+    justify-content:center;
+    z-index: 999;
+    align-items:center;
+}
+
+.nav div{
+    width:33.333333333333333%;
+    text-align:center;
+    height:100%;
+}
+
+.nav div p{
+    margin-top:3vh;
+}
+
+
+.nav div:hover p{
+    color:black;
+    transition:1s;
+}
+
+.nav div:hover{
+    background-color:rgb(125, 126, 126);
+    transition:1s;
+}
+
+.footer{
+    width:100%;
+    background-color:gray;
+    height:20vh;
+    margin-top:0px;
+}
+
+.carbonStructure{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    flex-wrap:wrap;
+    height:10vh;
+    position:absolute;
+}
+
+.carbonStructure div{
+    width:5%;
+    text-align:center;
+}
+
+.carbonStructure div img{
+    width:100%;
+    height:100%;
+    transition:5s;
+}
+
+.carbonStructure div:hover img{
+    transform: scale(0.8);
+    transition:0.5ms;
+    opacity:50%;
+}
+
+
+.carbon img{
+    color:white;
+    position: absolute;
+    z-index:100;
+    height:150%;
+    text-align:center;
+    opacity:0%;
+    transition:3s;
+    margin-top:5vh;
+}
+
+
+.carbon{
+    width:100%;
+    aspect-ratio:4/1;
+    position:absolute;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+}
+
+#introText{
+    width:100%;
+    margin-top:53%;
+    color:white;
+    font-size:300%;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.area{
+    color:rgb(205, 226, 243);
+    width:100%;
+    height:150vh;
+}
+.content{
+    font-size:110%;
+    margin-top:5%;
+    height:60%;
+    width:100%;
+}
+
+#word1{
+    padding-top:10%;
+    color:black;
+}
+
+p#word2{
+    padding-top:5%;
+    color:black;
+    text-align:center;
+
+}
+
+.content p{
+    font-size:110%;
+    padding-left:5%;
+    padding-right:5%;
+    color:black;
+    text-align:center;
+    padding-top:5%;
+}
