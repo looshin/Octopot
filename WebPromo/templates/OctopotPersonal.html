@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/OctopotPersonal.css') }}">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <div id="Home">
+                <p class="h2" id="Hometext">Home</p>
+            </div>
+            <div id="Company">
+                <p class="h2">Company</p>
+            </div>
+            <div id="Personal">
+                <p class="h2">Personal</p>
+            </div>
+        </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="textBeginning">
+        <div class="header">
+            <p class="h1">Personal</p>
+        </div>
+        <div class="content">
+        <div class="hidden">
+            <p  id="word1">We will be updating the public about our current projects soon. For those people that want to volunteer follow our instagram page at @octopotOfficial to stay updated. Our current volunteer based projects include clothing drives where we are accepting clothing donations at school and using them to prepare for our volunteer-led thrift shops. As of now, there are no scheduled Octopot events. 
+            </p>
+        </div>
+        <div class="hidden">
+            <p id="word2">For those that are attempting to seek support from Octopot please look for updates on our projects that we will be posting on this webpage. As of now, there are no large updates on any of the projects, but we will alter our webpage when we receive organization connections, and start distributing our resources. 
+            </p>
+        </div>
+        </div>
+        </div>
+        <div class="hidden">
+            <div class="footer">
+
+            </div>
+        </div>
+        <script src="{{ url_for('static',filename='script/OctopotPersonal.js') }}" async defer></script>
+    </body>
+</html>
