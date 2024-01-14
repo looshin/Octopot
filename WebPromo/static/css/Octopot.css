@@ -303,6 +303,7 @@ body {
     transition:1s;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:gray;
+    background-color:white;
 }
 
 .footerContainer div button:hover{
