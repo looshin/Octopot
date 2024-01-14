@@ -146,7 +146,7 @@ p#word2{
 
 @media (max-width:700px){
     .nav div p{
-        font-size:150%;
+        font-size:120%;
     }
     #introText p{
         font-size:80%;
