@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/OctopotAbout.css') }}">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <div id="Home">
+                <p class="h2" id="Hometext">Home</p>
+            </div>
+            <div id="Company">
+                <p class="h2">Company</p>
+            </div>
+            <div id="Personal">
+                <p class="h2">Personal</p>
+            </div>
+        </div>
+        <div id="sky">
+        <div class="globe" id="global">
+            <img src="{{ url_for('static',filename='Mascots/Earth.png') }}" id="earth" alt="" width="50%" height="70%">
+        </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="textBeginning">
+        <div class="header">
+            <p class="h1">About Octopot</p>
+        </div>
+        <div class="content">
+        <div class="hidden">
+            <p id="word1">Octopot’s overall mission is to provide equal access to clean hygiene for all. We are a non-profit organization who works with partners to distribute resources to the Seattle community and to abolish the causes of public health problems. Such projects can include products such as those under the pink tax(feminine hygiene products), working with companies to fund places for disadvantaged communities to use bathrooms, and educating the population. Our volunteer section works at finding ways to increase the access of these products for marginalized communities. 
+            </p>
+        </div>
+        <div class="hidden">
+            <p id="word2">Will be present at Seattle local events where the population can stop by and have interactions with our organization. At these events we will be creating fundraisers, educating, and asking for possible donations. If you are lucky you might even get some Octopot merch by stopping by one of our booths. All proceeds will go to helping provide resources to hygiene for disadvantaged communities.  
+            </p>
+        </div>
+        <div class="hidden">
+            <p id="word3">Some of the projects we might be introducing soon are pop-up thrift shops where we take resued clothes and repurpose them to people who might benefit from them. Some of the clothes might go towards benefiting communities directly, and other clothes might be sold in our shops. We will be asking for volunteers for the pop-up thrift stores, and the proceeds will go towards financing other projects. We are also working on connecting with portable toilet companies to create more public bathrooms in areas where finding a public bathrooms are a challenge. Finally, we plan to make care packages centred on hygiene(toilet paper, menstueration, soap, ect.) that we will distribute to different organizations around the Seattle area.
+            </p>
+        </div>
+        <div class="hidden">
+            <p id="word4">Octopot is always up to suggestions to become more environmentally and societally friendly. Please message us if you have any ideas, and we will be glad to look over it. We will update our page soon with big updates such as volunteer work, and how are new projects are going.  
+            </p>
+        </div>
+        </div>
+        </div>
+        <div class="hidden">
+            <div class="footer">
+
+            </div>
+        </div>
+        <script src="{{ url_for('static',filename='script/OctopotAbout.js') }}" async defer></script>
+    </body>
+</html>

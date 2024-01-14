@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"WebPromo/app.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"WebPromo/app.py"
+        }
+    ]
+}
