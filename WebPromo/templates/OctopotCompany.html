@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/OctopotCompany.css') }}">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <div id="Home">
+                <p class="h2" id="Hometext">Home</p>
+            </div>
+            <div id="Company">
+                <p class="h2">Company</p>
+            </div>
+            <div id="Personal">
+                <p class="h2">Personal</p>
+            </div>
+        </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="textBeginning">
+        <div class="header">
+            <p class="h1">Company</p>
+        </div>
+        <div class="content">
+        <div class="hidden">
+            <p id="word1">If you are an organization wanting to connect with us and want to know more about our projects please contact us at octopotofficial@gmail.com. Our current projects right now include working with organizations to provide portable toilets in areas without accessible public bathroom access. Additionally, we work to repurpose clothes so we can finance the connections that might be required from our projects. Finally for organizations wanting our hygiene care packages(food banks, grocery stores, businesses, ect.), please let us know.
+            </p>
+        </div>
+        <div class="hidden">
+            <p id="word2">Octopot will be willing to communicate with many organizations, but the most important resources it needs from different connected organizations include those that sell hygiene supplies(toilet paper, menstrual supplies, soap, ect.), portable toilet companies, and clothing entities. Octopot will be willing to accept leftover supplies as donations. Thank you for considering Octopot!
+            </p>
+        </div>
+        </div>
+        </div>
+        <div class="hidden">
+            <div class="footer">
+
+            </div>
+        </div>
+        <script src="{{ url_for('static',filename='script/OctopotCompany.js') }}" async defer></script>
+    </body>
+</html>
